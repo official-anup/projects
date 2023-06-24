@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anup's Portpolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92608d0899.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div id="head">
+       <div class="container">
+          
+        <nav>
+            <img id="logo"  src="images/logo2.png" alt="logo">
+
+            <ul id="sidemenu">
+                <li><a href="#head">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portpolio">Portpolio</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>Backend / Full stack Developer</p>
+            <h1>Hi,I'm <span>Anup</span><br> from Pune</h1>
+        </div>
+       </div>
+    </div>
+
+<!-- ------------------- about ---------------------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img id="img2"  src="images/img9.jpg" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 >About Me</h1>
+                    <p>Hello there, Anup Alone from Pune.I have more than 2.5 yeays of experience in backend along in python,djnago and MySql.Along with this i have exposure if front end technologies like HTML,CSS,JavaScript And Angular and also known about the Git and GitHub and also I'm familliar with the Agile Methodology.</p>
+
+                    <div class="tab">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                        <p class="tab-links " onclick="opentab('experience')">Experience</p>
+
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front End</span><br>Html,Css,JavaScript,Angular</li>
+
+                            <li><span>Backend End</span><br>Python,Django</li>
+
+                            <li><span>Version Control</span><br>Git</li>
+
+                            <li><span>DataBase</span><br>MySql</li>
+
+                            <li><span>Agile Methodology</span><br></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020-may 2023</span><br>Backend Developer <br>(Addvic opc pvt ltd.)
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>School</span><br>J.K. Bomanwar High School,Chamorshi</li>
+
+                            <li><span>College</span><br>Wainganga College of Enginnering and Management,Nagpur</li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+<!-- ----------------- services ----------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+
+        <div class="services-list">
+            <!-- <div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id delectus aliquam nostrum non aperiam ea! Veritatis officiis, explicabo repellendus.</p>
+                <a href="#">Learn More</a>
+            </div> -->
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Backend Developement</h2>
+                <p>Able to work in the backend technology with the Python,Django and MySql.</p>
+                <a href="" onclick="work()">Learn More</a>
+
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front-End Developement</h2>
+                <p>I can work as an front-end Developer to fullfill the demands of the ongoing trends of the market with the front-end tech.</p>
+                <a href="#" >Learn More</a>
+
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- ----------------- portpolio ----------------------------- -->
+<div id="portpolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+            
+        <div class="work-list">
+              <div class="work">
+                    <img src="images/img11.avif" alt="">
+                    <div class="layer">
+                    <h3>Ecommerce Site</h3>
+                    <p>To be uploaded soon !</p>
+                    <a href="#"  onclick="work()"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+              </div>
+
+              <!-- <div class="work">
+                <img src="images/img12.avif" alt="">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde natus eaque  esse</p>
+                    <a href="#"  onclick="work()"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+              </div> -->
+
+             <div class="work">
+                 <img src="images/img13.avif" alt="">
+
+                 <div class="layer">
+                    <h3>Exam Portal</h3>
+                    <p>To be uploaded soon !</p>
+                    <a href="#"  onclick="work()"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+<!--  ------------------- contact -----------------------------  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> anupaalone8956196120@gmail.com</p>
+
+                <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 8956196120 / 7666299481</p>
+
+                <div class="social-ions">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+
+                </div>
+                  
+                <a href="images/Anup.docx" class="btn btn2">Download Cv</a> 
+
+                
+
+            </div>
+       
+            <div class="contact-right">
+
+                <form action="" name="submit-to-google-sheet">
+                    <input type="text" name="name" id="" placeholder="Your Name" required>
+
+                    <input type="email" name="email" id="" placeholder="Your Email" required>
+
+                    <textarea name="msg"  rows="6" placeholder="Your Message"></textarea>
+
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- --------------------- copyrights------------------------ -->
+
+<div class="copyright">
+    <p>Copyright @ 2023-2033 AnupAlone<i class="fa-solid fa-registered"></i>.All rights are reserverd.</p>
+</div>
+
+
+<!-- ----------------- script ----------------------------- -->
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links")
+    var tabcontents=document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right="0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right="-200px"
+    }
+</script>
+
+<script>
+    var work=document.getElementById("services")
+    function work(){
+        alert("I will upload soon !")
+    }
+</script>
+
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw2Nc0GogxqRAsIj_NxF1Nff4ULflrLdWVbcigEtn8u9yi17XFezYCujW8qOSzVegTN/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message send successfully."
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
